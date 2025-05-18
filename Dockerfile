@@ -6,7 +6,7 @@ COPY . /src
 
 WORKDIR /src
 
-RUN poetry install
+RUN poetry install --no-root
 
 EXPOSE 8501
 
